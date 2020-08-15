@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "zoombot"
+version = "0.1.0"
+description = "Python wrapper for Zoom Chatbot API"
+authors = ["Tom <tomgrin10@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/tomgrin10/binary"
+documentation = ""
+
+keywords = ["zoom", "chat", "bot"]
+
+classifiers = [
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+#        'Topic :: Software Development :: Build Tools',
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+starlette = "^0.13.8"
+uvicorn = "^0.11.8"
+aiohttp = "^3.6.2"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+ipython = "^7.17.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
