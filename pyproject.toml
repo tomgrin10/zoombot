@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "zoombot"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python wrapper for Zoom Chatbot API"
 authors = ["Tom <tomgrin10@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = ""
-repository = "https://github.com/tomgrin10/binary"
+repository = "https://github.com/tomgrin10/zoombot"
 documentation = ""
 
 keywords = ["zoom", "chat", "bot"]
