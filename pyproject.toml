@@ -2,7 +2,7 @@
 name = "zoombot"
 version = "0.1.1"
 description = "Python wrapper for Zoom Chatbot API"
-authors = ["Tom <tomgrin10@gmail.com>"]
+authors = ["Tom Gringauz <tomgrin10@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = ""
